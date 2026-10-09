@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="اكتشف أحدث الإكسسوارات والهدايا ومنتجات التجميل والعناية بالبشرة من PARIQ Store.">
+  <title>PARIQ Store | اختار اللي بتحبه</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="PARIQ Store"><span>P</span> PARIQ</a>
+
+      <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#categories">الأقسام</a>
+        <a href="#products">المنتجات</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="بحث">⌕</button>
+        <button class="icon-btn" id="cartToggle" aria-label="السلة">
+          🛒<span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-box" id="searchBox">
+      <input type="search" id="searchInput"
+        placeholder="دور على المنتج اللي بتحبه..."
+        aria-label="ابحث عن المنتجات">
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-label">أهلاً بيك في PARIQ STORE 💗</span>
+        <h1>اختار ستايلك<br>وخليك <span>مميز</span></h1>
+        <p>
+          اكتشف منتجات مميزة من الإكسسوارات والهدايا والتجميل
+          والعناية بالبشرة، واختار اللي يناسبك من مكان واحد.
+        </p>
+        <a href="#products" class="primary-btn">اكتشف المنتجات ←</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="benefit">
+      <div class="benefit-icon">🛍️</div>
+      <div>
+        <h3>تجربة تسوق سهلة</h3>
+        <p>اختار منتجاتك وضيفها للسلة بسهولة.</p>
+      </div>
+    </div>
+
+    <div class="benefit">
+      <div class="benefit-icon">💬</div>
+      <div>
+        <h3>الطلب عن طريق واتساب</h3>
+        <p>ابعت تفاصيل طلبك عشان نأكد الأوردر.</p>
+      </div>
+    </div>
+
+    <div class="benefit">
+      <div class="benefit-icon">💗</div>
+      <div>
+        <h3>اختيارات مميزة</h3>
+        <p>منتجات متنوعة تناسب ذوقك.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="section-heading">
+      <div>
+        <h2>تسوق حسب <span>القسم</span></h2>
+        <p>اختار القسم اللي بتحبه واستكشف المنتجات.</p>
+      </div>
+    </div>
+
+    <div class="categories">
+      <a href="#products" class="category-card" data-category="accessories">
+        <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="إكسسوارات" loading="lazy">
+        <span class="category-title">✨ الإكسسوارات</span>
+      </a>
+
+      <a href="#products" class="category-card" data-category="gifts">
+        <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=700&q=80" alt="هدايا" loading="lazy">
+        <span class="category-title">🎁 الهدايا</span>
+      </a>
+
+      <a href="#products" class="category-card" data-category="beauty">
+        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80" alt="منتجات التجميل" loading="lazy">
+        <span class="category-title">💄 التجميل</span>
+      </a>
+
+      <a href="#products" class="category-card" data-category="skincare">
+        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80" alt="العناية بالبشرة" loading="lazy">
+        <span class="category-title">🧴 العناية بالبشرة</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="section-heading">
+      <div>
+        <h2>منتجات <span>مختارة ليك</span></h2>
+        <p>شوف المنتجات، اختار اللي يعجبك وضيفه للسلة.</p>
+      </div>
+    </div>
+
+    <div class="products" id="productsGrid"></div>
+  </section>
+
+  <section class="newsletter">
+    <h2>جاهز تختار <span>حاجتك؟</span></h2>
+    <p>
+      اختار المنتجات اللي عجبتك وضيفها للسلة،
+      وبعدها ابعت طلبك على واتساب بسهولة.
+    </p>
+    <a href="#products" class="primary-btn">يلا نتسوق 🛍️</a>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="#" class="logo"><span>P</span> PARIQ</a>
+        <p>
+          PARIQ Store — مكانك لاكتشاف منتجات مميزة من الإكسسوارات
+          والهدايا والتجميل والعناية بالبشرة. اختار منتجاتك
+          وابعت طلبك بسهولة على واتساب.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>روابط سريعة</h3>
+        <a href="#">الرئيسية</a>
+        <a href="#categories">الأقسام</a>
+        <a href="#products">المنتجات</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>تواصل معنا</h3>
+        <a href="https://wa.me/201201241122" target="_blank" rel="noopener noreferrer">💬 واتساب</a>
+        <a href="#products">🛍️ تسوق الآن</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © <span id="currentYear"></span> PARIQ Store — جميع الحقوق محفوظة.
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart-panel" id="cartPanel" aria-label="سلة المشتريات" aria-hidden="true">
+    <div class="cart-header">
+      <h2>🛒 سلة مشترياتك</h2>
+      <button class="close-cart" id="closeCart" aria-label="إغلاق السلة">×</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <div class="empty-cart">
+        <div class="empty-icon">🛍️</div>
+        <h3>سلتك لسه فاضية!</h3>
+        <p>اختار المنتجات اللي عجبتك وابدأ التسوق.</p>
+      </div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="summary-row">
+        <span>مجموع المنتجات</span>
+        <span id="subtotal">0 جنيه</span>
+      </div>
+
+      <div class="summary-row">
+        <span>الشحن</span>
+        <span id="shipping">0 جنيه</span>
+      </div>
+
+      <div class="summary-row total">
+        <span>الإجمالي</span>
+        <span id="total">0 جنيه</span>
+      </div>
+
+      <p class="shipping-note">
+        تكلفة الشحن المحسوبة 70 جنيه، ويُرجى تأكيدها عند التواصل.
+      </p>
+
+      <button class="checkout-btn" id="checkoutBtn" disabled>
+        ابعت طلبك على واتساب 🚀
+      </button>
+    </div>
+  </aside>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
